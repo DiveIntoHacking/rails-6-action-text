@@ -4,6 +4,8 @@ ja:
       models:
         post:
           attributes:
+            base:
+              content_attachment_byte_size_is_too_big: 添付ファイルは%{max_content_attachment_mega_byte_size}MB以下にしてください。[%{bytes}/%{max_bytes}]
             title:
               blank: が空です。
               too_long: が%{count}文字を超えています。
