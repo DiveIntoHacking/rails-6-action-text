@@ -77,6 +77,7 @@ $ git checkout -t origin/install-image-processing
 
 ```
 $ docker-compose run --rm web bundle install #=> gemパッケージのインストールに時間がかかります！
+$ docker-compose run --rm web yarn install
 $ docker-compose run --rm web ./bin/rails db:create
 $ docker-compose run --rm web ./bin/rails db:migrate
 $ docker-compose up
@@ -101,12 +102,12 @@ $ git log -p
 その他、不明な点が有りましたら Udemy の Q&A にてご質問ください。
 
 <div align='right'>
-  
+
 Dive into Hacking!
 
 </div>
 <div align='right'>
-  
+
 Udemy プログラミング講師
 
 </div>
